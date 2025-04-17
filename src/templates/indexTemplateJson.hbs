@@ -1,0 +1,7 @@
+{{#each fileNames}}
+  import {{this~}}Json from "./{{~this~}}.json";
+{{/each ~}}
+
+{{#each fileNames}}
+  export const {{this}} = {{this~}}Json;
+{{/each ~}}

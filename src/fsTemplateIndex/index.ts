@@ -1,0 +1,1 @@
+export { fsTemplateIndex } from './fsTemplateIndex';

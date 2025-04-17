@@ -1,0 +1,1 @@
+export { fsTemplate } from './fsTemplate';

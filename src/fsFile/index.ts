@@ -1,0 +1,1 @@
+export { fsFile } from './fsFile';
