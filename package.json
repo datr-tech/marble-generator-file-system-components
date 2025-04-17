@@ -1,5 +1,5 @@
 {
-  "name": "@datr.tech/marmalade-generator-file-system-components",
+  "name": "@datr.tech/marble-generator-file-system-components",
   "version": "0.3.0",
   "private": false,
   "description": "Marmalade generator file system components",
@@ -7,13 +7,13 @@
     "datr.tech",
 		"file-system",
 		"generator",
-    "marmalade",
+    "marble",
 		"typescript"
   ],
-  "homepage": "https://github.com/datr.tech/marmalade-generator-file-system-components",
+  "homepage": "https://github.com/datr.tech/marble-generator-file-system-components",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/datr.tech/marmalade-generator-file-system-components.git"
+    "url": "git+https://github.com/datr.tech/marble-generator-file-system-components.git"
   },
   "license": "MIT",
   "author": "admin <admin@datr.tech>",

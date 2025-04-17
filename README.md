@@ -1,3 +1,3 @@
-## @datr.tech/marmalade-generator-file-system-components
+## @datr.tech/marble-generator-file-system-components
 
 ## Development in progress
