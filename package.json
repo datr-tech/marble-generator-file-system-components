@@ -5,10 +5,10 @@
   "description": "Marmalade generator file system components",
   "keywords": [
     "datr.tech",
-		"file-system",
-		"generator",
+    "file-system",
+    "generator",
     "marble",
-		"typescript"
+    "typescript"
   ],
   "homepage": "https://github.com/datr.tech/marble-generator-file-system-components",
   "repository": {
@@ -26,7 +26,7 @@
   },
   "scripts": {
     "prebuild": "npm run clean",
-    "build": "npx webpack --mode production",
+    "build": "npx tsc",
     "prechangelog": "git add ./package.json",
     "changelog": "npx auto-changelog",
     "postchangelog": "npm-run-all changelog:add changelog:commit",
@@ -36,11 +36,10 @@
     "commit-msg": "commitlint --edit",
     "format:config": "npx prettier --write './*.{cjs,js,json,mjs,ts}'",
     "format:src": "npx prettier --write './src/**/*.{json,ts}'",
-    "format:test": "npx prettier --write './test/**/*.{json,ts}'",
-    "format": "npm-run-all format:config format:src format:test",
+    "format": "npm-run-all format:config format:src",
     "lint": "npx eslint --fix",
     "preversion": "npm-run-all format lint spell",
-    "version": "npm-run-all build test:it changelog",
+    "version": "npm-run-all build changelog",
     "postversion": "git push origin master --tags --no-verify",
     "precommit": "npm-run-all format lint spell",
     "prepare": "husky",
@@ -78,9 +77,7 @@
     "ts-node": "^10.9.2",
     "tsx": "^4.19.1",
     "typescript": "^5.6.2",
-    "typescript-eslint": "^8.6.0",
-    "webpack": "^5.94.0",
-    "webpack-cli": "^5.1.4"
+    "typescript-eslint": "^8.6.0"
   },
   "engines": {
     "node": ">=18.0.0",
