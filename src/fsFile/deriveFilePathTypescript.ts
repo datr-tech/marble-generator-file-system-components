@@ -1,4 +1,4 @@
-import { extensionTypescript } from '@app/config';
+import { extensionTypescript } from '@app-marble-generator-file-system-components/config';
 import { deriveFilePath } from './deriveFilePath';
 
 export const deriveFilePathTypescript = (fileName, dirPath) =>

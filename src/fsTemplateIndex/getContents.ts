@@ -1,4 +1,4 @@
-import { fsTemplate } from '@app/fsTemplate';
+import { fsTemplate } from '@app-marble-generator-file-system-components/fsTemplate';
 import { deriveIndexTemplateName } from './deriveIndexTemplateName';
 
 export const getContents = (filesToExport, requiresJsonFileExportTemplate = false) => {

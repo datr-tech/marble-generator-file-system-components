@@ -1,5 +1,5 @@
-import { fsFile } from '@app/fsFile';
-import { fsTemplateIndex } from '@app/fsTemplateIndex';
+import { fsFile } from '@app-marble-generator-file-system-components/fsFile';
+import { fsTemplateIndex } from '@app-marble-generator-file-system-components/fsTemplateIndex';
 
 export const writeIndexFromPath = (
   indexFilePath,

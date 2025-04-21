@@ -1,4 +1,4 @@
-import { extensionTypescript } from '@app/config';
+import { extensionTypescript } from '@app-marble-generator-file-system-components/config';
 import path from 'node:path';
 
 export const deriveIndexPath = (
