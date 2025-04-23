@@ -1,4 +1,7 @@
-import { extensionTemplate, templatesDirPath } from '@app-marble-generator-file-system-components/config';
+import {
+  extensionTemplate,
+  templatesDirPath,
+} from '@app-mgfsc/config';
 import path from 'node:path';
 
 export const deriveTemplatePath = (

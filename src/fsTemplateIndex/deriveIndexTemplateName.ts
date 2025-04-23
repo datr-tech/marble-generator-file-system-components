@@ -1,4 +1,4 @@
-import { indexTemplateBaseName } from '@app-marble-generator-file-system-components/config';
+import { indexTemplateBaseName } from '@app-mgfsc/config';
 
 export const deriveIndexTemplateName = (
   requiresJsonFileExportTemplate = false,

@@ -1,4 +1,4 @@
-import { fsFile } from '@app-marble-generator-file-system-components/fsFile';
+import { fsFile } from '@app-mgfsc/fsFile';
 import { deriveIndexName } from './deriveIndexName';
 import { deriveIndexPath } from './deriveIndexPath';
 import { writeIndex } from './writeIndex';

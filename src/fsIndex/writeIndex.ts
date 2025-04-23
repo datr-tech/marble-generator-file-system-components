@@ -1,4 +1,7 @@
-import { extensionTypescript, indexBaseName } from '@app-marble-generator-file-system-components/config';
+import {
+  extensionTypescript,
+  indexBaseName,
+} from '@app-mgfsc/config';
 import { deriveIndexName } from './deriveIndexName';
 import { deriveIndexPath } from './deriveIndexPath';
 import { writeIndexFromPath } from './writeIndexFromPath';

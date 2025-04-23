@@ -1,5 +1,5 @@
-import { localCodeRoot } from '@app-marble-generator-file-system-components/config/localCodeRoot';
-import { templatesDirName } from '@app-marble-generator-file-system-components/config/templatesDirName';
+import { localCodeRoot } from '@app-mgfsc/config/localCodeRoot';
+import { templatesDirName } from '@app-mgfsc/config/templatesDirName';
 import path from 'node:path';
 
 export const templatesDirPath = path.resolve(localCodeRoot, templatesDirName);

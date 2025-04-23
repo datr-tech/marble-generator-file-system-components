@@ -1,4 +1,4 @@
-import { fsCommon } from '@app-marble-generator-file-system-components/fsCommon';
+import { fsCommon } from '@app-mgfsc/fsCommon';
 
 export const doesFileExist = (filePath, stat = undefined) => {
   const statLocal = typeof stat !== 'undefined' ? stat : fsCommon.getStat(filePath);
