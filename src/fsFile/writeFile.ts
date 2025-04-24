@@ -1,4 +1,4 @@
-import { extensionTypescript } from '@app-mgfsc/config';
+import { extensionTypescript } from '@app-lgfsc/config';
 import { deriveFilePath } from './deriveFilePath';
 import { writeFileFromPath } from './writeFileFromPath';
 

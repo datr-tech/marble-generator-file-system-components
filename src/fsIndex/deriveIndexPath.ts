@@ -1,4 +1,4 @@
-import { extensionTypescript } from '@app-mgfsc/config';
+import { extensionTypescript } from '@app-lgfsc/config';
 import path from 'node:path';
 
 export const deriveIndexPath = (

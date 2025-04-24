@@ -1,5 +1,5 @@
-import { fsFile } from '@app-mgfsc/fsFile';
-import { fsTemplateIndex } from '@app-mgfsc/fsTemplateIndex';
+import { fsFile } from '@app-lgfsc/fsFile';
+import { fsTemplateIndex } from '@app-lgfsc/fsTemplateIndex';
 
 export const writeIndexFromPath = (
   indexFilePath,

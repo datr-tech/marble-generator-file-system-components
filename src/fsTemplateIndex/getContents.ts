@@ -1,4 +1,4 @@
-import { fsTemplate } from '@app-mgfsc/fsTemplate';
+import { fsTemplate } from '@app-lgfsc/fsTemplate';
 import { deriveIndexTemplateName } from './deriveIndexTemplateName';
 
 export const getContents = (filesToExport, requiresJsonFileExportTemplate = false) => {

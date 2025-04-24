@@ -1,7 +1,4 @@
-import {
-  extensionTypescript,
-  indexBaseName,
-} from '@app-mgfsc/config';
+import { extensionTypescript, indexBaseName } from '@app-lgfsc/config';
 import { deriveIndexName } from './deriveIndexName';
 import { deriveIndexPath } from './deriveIndexPath';
 import { writeIndexFromPath } from './writeIndexFromPath';

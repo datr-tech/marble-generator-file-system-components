@@ -1,3 +1,3 @@
-import { indexBaseName } from '@app-mgfsc/config';
+import { indexBaseName } from '@app-lgfsc/config';
 
 export const deriveIndexName = (baseName = indexBaseName) => baseName;

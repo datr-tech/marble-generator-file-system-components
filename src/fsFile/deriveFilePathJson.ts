@@ -1,4 +1,4 @@
-import { extensionJson } from '@app-mgfsc/config';
+import { extensionJson } from '@app-lgfsc/config';
 import { deriveFilePath } from './deriveFilePath';
 
 export const deriveFilePathJson = (fileName, dirPath) =>

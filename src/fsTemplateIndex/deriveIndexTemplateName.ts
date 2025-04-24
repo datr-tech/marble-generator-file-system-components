@@ -1,4 +1,4 @@
-import { indexTemplateBaseName } from '@app-mgfsc/config';
+import { indexTemplateBaseName } from '@app-lgfsc/config';
 
 export const deriveIndexTemplateName = (
   requiresJsonFileExportTemplate = false,
